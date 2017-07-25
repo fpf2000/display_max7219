@@ -23,11 +23,11 @@ while True:
 #	temp = os.system ('/opt/vc/bin/vcgencmd measure_temp')
 
 	matrix.show_message(str(temp))
-	time.sleep(5)
+	time.sleep(1)
 	matrix.clear()
+# Anzeige des Datums und Uhrzeit ==> (time.strftime("%d.%m.%Y %H:%M:%S"))
 
-
-	t = (time.strftime("%d.%m.%Y %H:%M:%S"))
+	t = (time.strftime("%H:%M"))
 
 	matrix.show_message(str(t))
 
@@ -35,4 +35,4 @@ while True:
 
 	matrix.clear()
 
-	time.sleep(2)
+	time.sleep(20)
