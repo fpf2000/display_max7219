@@ -45,3 +45,5 @@ matrix.show_message(str(t))
 time.sleep(2)
 
 matrix.clear()
+
+matrix.clear()
